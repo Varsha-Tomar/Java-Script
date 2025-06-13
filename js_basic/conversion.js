@@ -1,16 +1,22 @@
-let score = "33"
+// let score = "33"
 
-console.log(typeof score)
+// console.log(typeof score)
 
-let valueInNumber = Number(score)
+// let valueInNumber = Number(score)
 
-console.log(typeof(valueInNumber))
+// console.log(typeof(valueInNumber))
 
-// "33abc" => NaN
+// // "33abc" => NaN
 
 
-let isLoggedIn = 1
+// let isLoggedIn = 1
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn)
 
+//  ******************* Operations **************************
+
+let value = 3;
+let negValue = - value
+
+console.log(negValue)
