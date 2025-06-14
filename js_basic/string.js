@@ -43,4 +43,8 @@ console.log(gameName.big()) // <big>Radha</big> (returns a big element)
 console.log(gameName.blink()) // <blink>Radha</blink> (returns a blink element)
 console.log(gameName.bold()) // <b>Radha</b> (returns a bold element)
 console.log(gameName.fixed()) // <tt>Radha</tt> (returns a fixed-width font element)
-console.log(gameName.fontcolor("red")) // <font color="red">Radha</font> (returns a font element with color)                
+console.log(gameName.fontcolor("red")) // <font color="red">Radha</font> (returns a font element with color)         
+
+const url ="https://www.google.comjhkjhkhjgjhgjh"
+
+console.log(url.replace('jh','-'))        // https://www.google.com
