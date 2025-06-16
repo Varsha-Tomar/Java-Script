@@ -16,3 +16,21 @@ console.log(typeof(myDate));
 
 let mycreatedDate = new Date(2023,0,23)
 console.log(mycreatedDate.toDateString());  // return date and time of created date
+
+
+let myTimeStamp = Date.now();  // return current timestamp in milliseconds
+console.log(myTimeStamp);  // return current timestamp in milliseconds
+
+console.log(mycreatedDate.getTime());
+
+console.log(Date.now()/1000);
+
+console.log(Math.floor(Date.now()/1000));  // return current timestamp in seconds
+
+let newDate = new Date();
+
+console.log(newDate);
+console.log(newDate.getDate());
+console.log(newDate.getMonth());
+console.log(newDate.getDay());
+console.log(newDate.getYear());
