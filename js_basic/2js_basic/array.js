@@ -14,3 +14,8 @@ console.log(myArr)
 myArr.unshift(5) 
 myArr.shift(4)
 
+const newArr = myArr.join()
+
+console.log(newArr)
+console.log(typeof newArr)
+
