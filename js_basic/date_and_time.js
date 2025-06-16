@@ -34,3 +34,14 @@ console.log(newDate.getDate());
 console.log(newDate.getMonth());
 console.log(newDate.getDay());
 console.log(newDate.getYear());
+
+newDate.toLocaleString('default',{
+    weekday: 'long',  // long, short, narrow
+    year: 'numeric',  // numeric, 2-digit
+    month: 'long',  // numeric, 2-digit, long, short, narrow
+    day: 'numeric',  // numeric, 2-digit
+    hour: 'numeric',  // numeric, 2-digit
+    minute: 'numeric',  // numeric, 2-digit
+    second: 'numeric',  // numeric, 2-digit
+    timeZoneName: 'short'  // short, long   
+})
