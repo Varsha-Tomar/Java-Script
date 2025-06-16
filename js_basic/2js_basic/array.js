@@ -6,4 +6,11 @@ myArr.push(5);
 const myHero =['Akash', 'Rohit', 'Virat', 'Dhoni', 'Hardik'];
 console.log(myHero);
 
-console.log(myArr[4]);  
+console.log(myArr);  
+
+console.log(myArr.pop());
+console.log(myArr)
+
+myArr.unshift(5) 
+myArr.shift(4)
+
