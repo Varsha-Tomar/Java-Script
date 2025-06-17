@@ -27,7 +27,7 @@ const jsUser ={
 // to change the values
 
 jsUser.email ="barsha.tomar@gmail.com"
-Object.freeze(jsUser)
+// Object.freeze(jsUser)
 jsUser.email ="radhika@crosoft.com"
 console.log(jsUser)
 
@@ -36,5 +36,12 @@ console.log(jsUser["email"])
 jsUser.greeting = function(){
     console.log("hello user")
 }
+console.log(jsUser.greeting) // return the function reference as a output 
 
-console.log(jsUser.greeting);
+console.log(jsUser.greeting());
+
+jsUser.greetingTwo = function() {
+    console.log(`hello js user, ${this.name}`)
+}
+
+console.log(jsUser.greetingTwo())
