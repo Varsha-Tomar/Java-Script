@@ -13,3 +13,10 @@ const {courseInstructor: instructor} =course  // after the : anything write whic
 console.log(instructor)
 console.log(courseInstructor);
 
+const navbar = ({company}) => {
+
+}
+// to call the navbar
+
+navbar(company ="Hitesh")
+
