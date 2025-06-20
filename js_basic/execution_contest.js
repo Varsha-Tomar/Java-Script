@@ -25,4 +25,23 @@ val1 = 10
 val2 = 5
 
 
+
 */
+
+function one() {
+    console.log("one")
+    two()
+}
+
+function two() {
+    console.log("Two")
+    three()
+}
+
+function three() {
+    console.log("Three")
+}
+
+one()
+two()
+three()
