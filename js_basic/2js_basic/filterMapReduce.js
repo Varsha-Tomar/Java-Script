@@ -1,3 +1,5 @@
+/*
+
 const coding = ["js","ruby","java","python","cpp"];
 
  const value = coding.forEach( (item)=> {
@@ -45,3 +47,56 @@ let userBooks = books.filter ( (bk) => bk.genre ==='History')
 userBooks = books.filter( (bk) => {
     return bk.publish >= 2000})
 console.log(userBooks);
+
+//**************************************
+
+const myNumbers = [1,2,3,4,5,6,7,8,9,10]
+
+// const newNum = myNumbers.map( (num) => {
+    // return num+10})
+
+const newNum = myNumbers    
+    .map ( (num) => num *10 )
+    .map( (num) => num+1)       // multiple map use again and again
+    .filter( (num) => num >= 40)
+console.log(newNum)
+
+*/
+
+const myNums = [1,2,3] 
+
+// const myTotal = myNums.reduce(function (acc, currval) {
+//     console.log(`acc: ${acc} and currval: ${currval}`);
+//     return acc + currval
+// }, 0)
+
+
+// acc = accumulator
+// currval = current value
+
+const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
+
+console.log(myTotal);
+
+const shoppingCart = [
+    {
+        itemName: "js course",
+        price: 2999
+    },
+    {
+        itemName: "python course",
+        price: 3999
+    },
+    {
+        itemName: "java course",
+        price: 4999
+    },
+    {
+        itemName: "cpp course",
+        price: 1999
+    }
+]
+
+ const priceToPay = shoppingCart.reduce( (acc, item) => acc + item.price,0)
+
+ console.log(priceToPay);
